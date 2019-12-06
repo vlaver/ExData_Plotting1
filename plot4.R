@@ -26,7 +26,7 @@ png(filename="plot4.png",width = 480, height = 480)
 
 par(mfrow=c(2,2))
 # Plot 1 1
-plot(data$Global_active_power ~ data$Datetime, type="l", ylab="Global Active Power")
+plot(data$Global_active_power ~ data$Datetime, type="l", xlab="", ylab="Global Active Power")
 # Plot 1 2
 plot(data$Voltage ~ data$Datetime, type="l", xlab="datetime", ylab="Voltage")
 
